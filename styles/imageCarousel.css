@@ -17,6 +17,7 @@ html, .image-carousel {
 
   .images-for-slider {
     border-radius: 20px;
+    object-fit: cover;
   }
 
   .swiper {
@@ -38,8 +39,8 @@ html, .image-carousel {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    border-radius: 20px;
+    object-fit: cover;
+    border-radius: 17px;
   }
 
   .swiper {
@@ -54,12 +55,25 @@ html, .image-carousel {
     width: 100%;
     bottom: 0;
     height: 80px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding-top: 10px;
     transform: translateX(-347px);
 }
 
+.content-shantha {
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  
+  padding-top: 10px;
+  transform: translateX(-250px);
+}
+
+/*
 .content-top {
     display: inline-block;
     position: absolute;
@@ -77,8 +91,33 @@ html, .image-carousel {
     background-color: #D7F9F4;
 
 }
-
+*/
 
 .swiper-button-next, .swiper-button-prev, .swiper-pagination {
   color: white;
+}
+
+html .image-carousel-shantha {
+  width: 500px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.image-carousel-shantha {
+  border: solid 3px rgb(255, 255, 255);
+}
+
+.content-shantha {
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  padding-top: 10px;
+  transform: translateX(-247px);
+  border: solid 3px rgb(255, 255, 255);
 }
