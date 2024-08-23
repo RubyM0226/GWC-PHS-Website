@@ -6,7 +6,7 @@
     <title>Girls Who Code at Plant</title>
     <link rel = "stylesheet" href = "styles/general.css">
     <link rel = "stylesheet" href = "styles/hamburger-menu.css">
-    <link rel = "stylesheet" href = "styles/imageCarousel.css">
+    <link rel = "stylesheet" href = "styles/imageCarousels.css">
     <link rel = "stylesheet" href = "styles/boardImages.css">
     
     <script src="https://kit.fontawesome.com/e9f5dc8e87.js" crossorigin="anonymous"></script>
@@ -24,11 +24,12 @@
 </head>
 
 <body>
+
     <div class = "header">
         <div class = "left-section">
             <div class = "off-screen-menu">
                 <ul>
-                  <li><a class = "pages" href = "/index.html">home</a></li>
+                  <li><a class = "pages" href = "/home.html">home</a></li>
                   <li><a class = "pages" href = "/calendar.html">calendar</a></li>
                   <li><a class = "pages" href = "/projects.html">projects</a></li>
                   <li><a class = "pages" href = "/clubResources.html">club resources</a></li>
@@ -92,7 +93,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
                 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-                <script>
+                <script class = "JS Code">
                         var swiper = new Swiper(".mySwiper", {
                         slidesPerView: 1,
                         spaceBetween: 30,
@@ -110,19 +111,27 @@
         </div>
         
 
+        
         <div class = "describe">
-            The club’s purpose is in align with the international non-profit, “Girls Who
-            Code”. We assist with their mission in closing the gender gap in computer science and STEM
-            fields. The club aims to inspire, educate, and equip women, girls, and other
-            underrepresented minorities with computing and programming skills in order to be agents
-            of change in their communities. The focus will be base level coding knowledge and building
-            on that knowledge throughout the year using block-based programming languages like
-            “Scratch” and text-based programming languages like “Python”. We will expose members to
-            the careers available to individuals with STEM backgrounds while giving them the
-            opportunity to build their own STEM skill set. This club aims to help make the STEM and
-            technology world less intimidating and available to those who are interested in it. We will
-            collaborate and share projects with each other to learn specific pieces of code.
-            
+            <a href = "https://www.instagram.com/phs_girlswhocode/?next=%2F" target = "_blank">
+                <div class = "describe-insta">
+                    <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+                    <strong class = "describe-insta-username">@phs_girlswhocode</strong></div>
+            </a>
+
+            <div class = "describe-content">
+                The club&#39;s purpose is in align with the international non-profit, “Girls Who
+                Code”. We assist with their mission in closing the gender gap in computer science and STEM
+                fields. The club aims to inspire, educate, and equip women, girls, and other
+                underrepresented minorities with computing and programming skills in order to be agents
+                of change in their communities. The focus will be base level coding knowledge and building
+                on that knowledge throughout the year using block-based programming languages like
+                “Scratch” and text-based programming languages like “Python”. We will expose members to
+                the careers available to individuals with STEM backgrounds while giving them the
+                opportunity to build their own STEM skill set. This club aims to help make the STEM and
+                technology world less intimidating and available to those who are interested in it. We will
+                collaborate and share projects with each other to learn specific pieces of code.
+            </div>
         </div>
     </div>
 
@@ -243,9 +252,48 @@
     </div>
 
 
-    
+    <div class = "home-content-2">
 
-      
+        <div class = "describe-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis architecto esse obcaecati dolores voluptates ratione asperiores. Nemo obcaecati iure voluptatem debitis aspernatur eaque? Id quibusdam quasi impedit sed ipsum?
+        </div>
+        
+        <div class = "image-carousel-shantha">
+        
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class = "images-for-slider" src = "images/shanthaGroup.jpg">
+                        <p class = "content-shantha">Touring USF's STEM and Business departments.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class = "images-for-slider" src = "images/shanthaSpeaking.jpg">
+                        <p class = "content-shantha">Listening to the VP of Research and Innovation, Sylvia Wilson Thomas speak about her experience when working towards her PhD in electrical engineering.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script class = "JS Code">
+                    var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+            </script>
+        </div>
+
+    </div>
 
 </body>
 </html>
