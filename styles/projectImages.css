@@ -1,0 +1,69 @@
+.project-grid {
+    margin-left: 128px;
+}
+.projectPreview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    padding-bottom: 20px;
+    background-color: rgb(167, 206, 243);
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.projectPreview:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.projectImg {
+    width: 299px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+}
+.projectName {
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.projectDate {
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-family: Arial;
+    font-size: 12px;
+}
+.seeMoreButton {
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    border-style: none;
+    background-color: rgb(48, 148, 241);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateX(100px);
+}
+.seeMoreButton:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.project-info {
+    width: 1000px;
+    background-color: #D7F9F4;
+    padding: 10px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 20px;
+    transform: translateX(250px);
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 160px;
+}

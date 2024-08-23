@@ -1,0 +1,123 @@
+html, .image-carousel {
+    position: relative;
+    width: 700px;
+  }
+
+  .image-carousel {
+    background: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  .images-for-slider {
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 17px;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content {
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    bottom: 0;
+    height: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    transform: translateX(-347px);
+}
+
+.content-shantha {
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  
+  padding-top: 10px;
+  transform: translateX(-250px);
+}
+
+/*
+.content-top {
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 5px;
+    transform: translateX(-140px);
+    top: 20px;
+    font-size: 30px;
+    font-style: bold;
+    font-family: sans-serif;
+    border: 3px solid white;
+    background-color: #D7F9F4;
+
+}
+*/
+
+.swiper-button-next, .swiper-button-prev, .swiper-pagination {
+  color: white;
+}
+
+html .image-carousel-shantha {
+  width: 500px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.image-carousel-shantha {
+  border: solid 3px rgb(255, 255, 255);
+}
+
+.content-shantha {
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  padding-top: 10px;
+  transform: translateX(-247px);
+  border: solid 3px rgb(255, 255, 255);
+}
