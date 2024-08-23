@@ -64,5 +64,5 @@
     width: 300px;
     font-size: 20px;
     font-weight: bold;
-    
+    transform: translateX(10px);
 }
